@@ -1,0 +1,6 @@
+# Ignore dataset folder
+classification_image_200/dataset/
+classification_image_200/test_dataset/
+
+# Ignore any .nii files in the project
+*.nii
