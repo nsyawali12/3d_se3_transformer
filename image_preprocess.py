@@ -74,7 +74,7 @@ def process_and_save_to_h5(image_folder, output_file):
             group.create_dataset('labels', data=all_labels, compression='gzip')
 
 if __name__ == "__main__":
-    image_folder = "image_chunks"  # Path to folder containing labeled subfolders
-    output_file = "chunks_dataset.h5"  # Path to save the HDF5 file
+    image_folder = "classifiication_images_200/dataset/image"  # Path to folder containing labeled subfolders
+    output_file = "image_class_150.h5"  # Path to save the HDF5 file
 
     process_and_save_to_h5(image_folder, output_file)

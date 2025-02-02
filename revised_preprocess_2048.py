@@ -98,8 +98,8 @@ def process_and_save_to_h5(image_folder, output_file, max_points=2048):
             group.create_dataset('labels', data=all_labels, compression='gzip')  
   
 if __name__ == "__main__":  
-    image_folder = "image_chunks"  # Path to folder containing labeled subfolders  
-    output_file = "chunks_dataset_2048.h5"  # Path to save the HDF5 file  
+    image_folder = "classifiication_images_200/dataset/image"  # Path to folder containing labeled subfolders  
+    output_file = "dataset_150i_2048.h5"  # Path to save the HDF5 file  
     max_points = 2048  # Define the maximum number of points per sample  
   
     process_and_save_to_h5(image_folder, output_file, max_points)  
