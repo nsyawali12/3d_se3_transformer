@@ -12,7 +12,7 @@ def load_data_from_h5(h5_file):
     
 # Main execution
 if __name__ == "__main__":
-    h5_file = "chunks_dataset_75i_8192p.h5"  # Replace with the path to your dataset
+    h5_file = "dataset_150i_1024.h5"  # Replace with the path to your dataset
 
     # Load coordinates from the dataset
     coords_list = load_data_from_h5(h5_file)

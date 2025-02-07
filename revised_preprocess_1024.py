@@ -102,8 +102,8 @@ def process_and_save_to_h5(image_folder, output_file, max_points=1024):
 
 
 if __name__ == "__main__":
-    image_folder = "image_chunks"  # Path to folder containing labeled subfolders
-    output_file = "chunks_dataset_75i_1024p.h5"  # Path to save the HDF5 file
+    image_folder = "classifiication_images_200/test_dataset/image"  # Path to folder containing labeled subfolders
+    output_file = "datatest_150i_1024.h5"  # Path to save the HDF5 file
     max_points = 1024  # Define the maximum number of points per sample
 
     process_and_save_to_h5(image_folder, output_file, max_points)
